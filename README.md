@@ -6,7 +6,7 @@ dengan melengkapi fitur seperti penambahan seeder serta foreigenkey, penanganan 
 <big>Struktur file</big>
 <p>tetapi sebelum itu mari kita berkenalan dengan struktur atau kerangka file migrations ini</p>
 
-|_ assets <br>                              
+|_ assets                          
 __|_ css <br>
 ___|_ bootstrap <br>
 ____|_ bootstrap.min.css <br>
