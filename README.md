@@ -7,25 +7,25 @@ dengan melengkapi fitur seperti penambahan seeder serta foreigenkey, penanganan 
 <p>tetapi sebelum itu mari kita berkenalan dengan struktur atau kerangka file migrations ini</p>
 
 |_ assets                          
-__|_ css <br>
-___|_ bootstrap <br>
-____|_ bootstrap.min.css <br>
-____|_ style.css <br>
-___|_ js <br>
-____|_ bootstrap <br>
-_____|_ bootstrap.bundle.min.js <br>
-_____|_ popper.min.js <br>
-____|_ fontawesome.min.js <br>
-_____|_ scripts.js <br>
+.|_ css <br>
+. |_ bootstrap <br>
+...|_ bootstrap.min.css <br>
+..|_ style.css <br>
+.|_ js <br>
+..|_ bootstrap <br>
+...|_ bootstrap.bundle.min.js <br>
+...|_ popper.min.js <br>
+...|_ fontawesome.min.js <br>
+..|_ scripts.js <br>
 |_ migrate <br>
-_|_ migrate.php <br>
+.|_ migrate.php <br>
 |_ table <br>
-_|_ main <br>
-__|_ main_obj.php <br>
-_|_ 0_table_tablename_example.php <br>
-_|_ table_buku.php <br>
-_|_ table_koleksipribadi.php <br>
-_|_ table_user.php <br>
+.|_ main <br>
+..|_ main_obj.php <br>
+.|_ 0_table_tablename_example.php <br>
+.|_ table_buku.php <br>
+.|_ table_koleksipribadi.php <br>
+.|_ table_user.php <br>
 |_ index.php <br>
 |_ migrations.php <br>
 koneksi.php <br>
@@ -35,7 +35,7 @@ koneksi.php <br>
     <span>koneksi.php</span>
     <p>file ini di gunakan untuk menyambungkan file php yang kita miliki dengan database yang akan kita gunakan sebagai tempat menyimpan table dan data yang kita miliki</p>
   </li>
-  <li>
+  <li
     <span>assets.php</span>
     <p>berisi file pendukung untuk ui atau tampilan yang di gunakan seperti fontawesome bootstrap serta css dan js external lainnya untuk yang spesial berada di file scripts.js karna berisi kode fetching untuk berinteraksi dengan file php yang berisi class migrations tanpa halaman tersebut loading terlebih dahulu</p>
   </li>
