@@ -8,7 +8,7 @@ dengan melengkapi fitur seperti penambahan seeder serta foreigenkey, penanganan 
 
 |_ assets                          
 .|_ css <br>
-. |_ bootstrap <br>
+..|_ bootstrap <br>
 ...|_ bootstrap.min.css <br>
 ..|_ style.css <br>
 .|_ js <br>
@@ -35,7 +35,7 @@ koneksi.php <br>
     <span>koneksi.php</span>
     <p>file ini di gunakan untuk menyambungkan file php yang kita miliki dengan database yang akan kita gunakan sebagai tempat menyimpan table dan data yang kita miliki</p>
   </li>
-  <li
+  <li>
     <span>assets.php</span>
     <p>berisi file pendukung untuk ui atau tampilan yang di gunakan seperti fontawesome bootstrap serta css dan js external lainnya untuk yang spesial berada di file scripts.js karna berisi kode fetching untuk berinteraksi dengan file php yang berisi class migrations tanpa halaman tersebut loading terlebih dahulu</p>
   </li>
