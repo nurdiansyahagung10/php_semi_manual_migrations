@@ -6,29 +6,29 @@ dengan melengkapi fitur seperti penambahan seeder serta foreigenkey, penanganan 
 <big>Struktur file</big>
 <p>tetapi sebelum itu mari kita berkenalan dengan struktur atau kerangka file migrations ini</p>
 
-|_ assets                              
-  |_ css
-    |_ bootstrap
-      |_ bootstrap.min.css
-    |_ style.css
-  |_ js
-    |_ bootstrap
-      |_ bootstrap.bundle.min.js
-      |_ popper.min.js
-    |_ fontawesome.min.js
-    |_ scripts.js
-|_ migrate
-  |_ migrate.php
-|_ table
-  |_ main
-    |_ main_obj.php
-  |_ 0_table_tablename_example.php
-  |_ table_buku.php
-  |_ table_koleksipribadi.php
-  |_ table_user.php
-|_ index.php
-|_ migrations.php
-koneksi.php
+|_ assets <br>                              
+  |_ css <br>
+    |_ bootstrap <br>
+      |_ bootstrap.min.css <br>
+    |_ style.css <br>
+  |_ js <br>
+    |_ bootstrap <br>
+      |_ bootstrap.bundle.min.js <br>
+      |_ popper.min.js <br>
+    |_ fontawesome.min.js <br>
+    |_ scripts.js <br>
+|_ migrate <br>
+  |_ migrate.php <br>
+|_ table <br>
+  |_ main <br>
+    |_ main_obj.php <br>
+  |_ 0_table_tablename_example.php <br>
+  |_ table_buku.php <br>
+  |_ table_koleksipribadi.php <br>
+  |_ table_user.php <br>
+|_ index.php <br>
+|_ migrations.php <br>
+koneksi.php <br>
 
 <ul>
   <li>
