@@ -61,7 +61,7 @@ koneksi.php <br>
 
 ![image](https://github.com/nurdiansyahagung10/php_semi_manual_migrations/assets/89456852/291ae8d4-61fe-4f9c-a2c2-c3e51141da9a)
 
-<p>pertama yang harus di lakukan adalah mengkonfigurasi koneksi dan membuat database yang akan kita konfigurasi di file koneksi.php ini, ubah new_php menjadi nama database kalian untuk host, username dan password biarkan saja jika kalian menggunakan xampp yang database nya tidak menggunakan password atau bukan menggunakan database hosting</p>
+<p>pertama yang harus di lakukan adalah memastikan file yang sudah di ambil dari github ini berada di htdocs xampp lalu kita akan mengkonfigurasi koneksi dan membuat database yang akan kita konfigurasi di file koneksi.php ini, ubah new_php menjadi nama database kalian untuk host, username dan password biarkan saja jika kalian menggunakan xampp yang database nya tidak menggunakan password atau bukan menggunakan database hosting</p>
 
 ![image](https://github.com/nurdiansyahagung10/php_semi_manual_migrations/assets/89456852/1b1e2d74-2ff1-45d0-bc94-904df3748c0e)
 
