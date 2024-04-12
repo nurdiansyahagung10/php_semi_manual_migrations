@@ -45,7 +45,7 @@ koneksi.php <br>
   </li>
   <li>
     <span>table</span>
-    <p>pada file ini kita dapat membuat sebuah file table yang di dalam file itu sudah di sediakan tempat untuk mengisi data table yang akan di buat seperti nama table, column dan tipe data serta atribut column user juga tidak perlu susah susah untuk membuat dari awal file table karna saya sudah menyediakan example atau template yang bisa di configurasi dengan mudah menjadi file pendeklarasian table yang di ingin kan ada juga file main yang berisi main_obj.php yang di mana file ini memiliki function function yang bisa mengolah data yang sudah di masukan ke dalam file pendeklarasian table sedemikian rupa hingga terbentuk menjadi code mysql yang padu , reuseble dan mudah di configurasi untuk di query </p>
+    <p>pada file ini kita dapat membuat sebuah file table yang di dalam file itu sudah di sediakan tempat untuk mengisi data table yang akan di buat seperti nama table, column dan tipe data serta atribut column user juga tidak perlu susah susah untuk membuat dari awal file table karna saya sudah menyediakan example atau template yang bisa di configurasi dengan mudah menjadi file pendeklarasian table yang di ingin kan ada juga file example lain yang sudah siap di gunakan yaitu ada file table buku,user dan koleksi pribadi untuk user dia memiliki contoh penggunaan seeder dan untuk file kategori dia memiliki contoh penggunaan foreign key dan ada file main yang berisi main_obj.php yang di mana file ini memiliki function function yang bisa mengolah data yang sudah di masukan ke dalam file pendeklarasian table sedemikian rupa hingga terbentuk menjadi code mysql yang padu , reuseble dan mudah di configurasi untuk di query menggunakan sitem pendekatan API </p>
   </li>
   <li>
     <span>index.php</span>
@@ -55,6 +55,8 @@ koneksi.php <br>
     <span>migrations.php</span>
     <p>file yang berisi nama file dan nama class agar file migrate dalam menginisialisasi file mana saja dan class apa saja yang akan di jalankan saat user mengirimkan request create,drop atau fresh </p>
   </li>
-  
 </ul>
+
+<big>Cara penggunaan</big>
+
 
