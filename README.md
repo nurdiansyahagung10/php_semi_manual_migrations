@@ -75,4 +75,6 @@ koneksi.php <br>
 
 <p>selanjutnya pergi ke file migrations.php di sini kita harus mendeklarasikan nama file dan nama class di dalam file ini tepat nya di dalam variable arrag asosiatif $files untuk keynya kita memasukan nama file dan untuk value nya kita memasukan nama class nya atau untuk lebih mudahnya data di kiri kita memasukan nama file tablenya dan untuk di kananya kita memasukan nama class di dalam file table tersebut untuk memasukan nama file tidak usah dengna location filenya karna itu sudah kami urus di file lain </p>
 
+![image](https://github.com/nurdiansyahagung10/php_semi_manual_migrations/assets/89456852/22eec5e4-6437-4bd6-9f3e-e9d6b22fa9a0)
 
+<p>jika sudah pergi ke halaman localhost yang menuju ke file struktur migrations kalian di sini di sediakan 3opsi untuk mengcreate semua table mengdrop semua table atau melakukan keduanya secara bersamaan dengan melakukan fresh ini juga di gunakan sebagai penambahan seeder karna pada fresh ini saya menambahkan beberapa penanganan error tambahan dan di sini juga saya sudah menyediakan 2 tema terang dan gelap untuk contohnya kita tekan tombol fresh</p>
