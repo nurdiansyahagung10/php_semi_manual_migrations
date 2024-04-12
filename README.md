@@ -78,3 +78,7 @@ koneksi.php <br>
 ![image](https://github.com/nurdiansyahagung10/php_semi_manual_migrations/assets/89456852/22eec5e4-6437-4bd6-9f3e-e9d6b22fa9a0)
 
 <p>jika sudah pergi ke halaman localhost yang menuju ke file struktur migrations kalian di sini di sediakan 3opsi untuk mengcreate semua table mengdrop semua table atau melakukan keduanya secara bersamaan dengan melakukan fresh ini juga di gunakan sebagai penambahan seeder karna pada fresh ini saya menambahkan beberapa penanganan error tambahan dan di sini juga saya sudah menyediakan 2 tema terang dan gelap untuk contohnya kita tekan tombol fresh</p>
+
+![image](https://github.com/nurdiansyahagung10/php_semi_manual_migrations/assets/89456852/cbe6a980-117d-484e-81f9-8b3b537f5b9c)
+
+<P>terakhir walau jika tampilan loading pada atas halaman sudah hilang tunggu sampai notification keterangan migrations muncul hall ini tergantung dari seberapa bagusnya spek laptop untuk menangani pengolahan data tapi walau begitu sampai muncul notification ini tidak akan memakan waktu yang lama dan biasanya hanya akan terjadi di fitur fresh saja dan jika sudah muncul maka tandanya kita sudah berhasil memigrations atau membuat table dari file php ke database dengan konfigurasi nama column yang bisa kita ubah ubah tanpa harus ke halaman admin mysql</P>
