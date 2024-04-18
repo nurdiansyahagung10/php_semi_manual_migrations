@@ -12,28 +12,51 @@ class migrate
         foreach ($files as $file => $class) {
             include "../table/$file";
             $this->obj[$class] = new $class();
+
         }
     }
 
     public function create(): void
     {
+        $data = array();
         foreach ($this->obj as $object) {
-            echo $object->create();
+            $data[] = $object->create();
         }
+
+        $data = implode('', $data);
+        echo "<div class='border-bottom py-2'>$data</div>";
+
     }
     public function drop(): void
     {
+        $data = array();
         $obj_revers = array_reverse($this->obj);
         foreach ($obj_revers as $object) {
-            echo $object->drop();
+            $data[] = "<li class='py-1'>" . $object->drop() . "</li>";
         }
+        $data = implode('', $data);
+        echo "<div class='border-bottom py-1'>
+        <ul>
+        $data
+        </ul>
+        
+        </div>";
+
     }
     public function seeder(): void
     {
-
+        $data = array();
         foreach ($this->obj as $object) {
-            echo $object->seeder();
+                $data[] = "<li class='py-1'>" . $object->seeder() . "</li>";
         }
+
+        $data = implode('', $data);
+        echo "<div class='border-bottom py-1'>
+        <ul>
+        $data
+        </ul>
+        
+        </div>";
 
     }
 

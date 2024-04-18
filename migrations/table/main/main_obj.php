@@ -13,7 +13,7 @@ abstract class obj
     public function __construct($tablename, $tableid, $tableinsert, $seederdata, $tableforeign)
     {
         // menginisialisasi koneksi
-        require "../../koneksi.php";
+        require "../../settings.php";
         $this->connection = $koneksi;
         $this->tablename = $tablename;
         $this->tableid = $tableid;
@@ -55,9 +55,9 @@ abstract class obj
                 $this->connection,
                 "DROP TABLE IF EXISTS $this->tablename"
             );
-            return "$this->tablename object already drop <br>";
+            return "$this->tablename table already drop <br>";
         } else {
-            return "$this->tablename object does not exist<br>";
+            return "<span class='text-danger'>$this->tablename table does not exist<br></span>";
         }
     }
 
@@ -73,14 +73,14 @@ abstract class obj
         }
 
         if ($exists == 1) {
-            return "$this->tablename object already exists <br>";
+            return "<span class='text-danger'>$this->tablename table already exists <br></span>";
         } else {
             $query = mysqli_query(
                 $this->connection,
                 "CREATE TABLE IF NOT EXISTS $this->tablename (" . $this->tablecolumn . ")"
             );
 
-            return "$this->tablename object already create <br>";
+            return "$this->tablename table already create <br>";
         }
     }
 
@@ -96,7 +96,6 @@ abstract class obj
             foreach ($fieldarray as $index => $subarray){
                 $field[] = $index;
             }
-            
 
             foreach ($this->seederdata as $index => $subarray) {
                 foreach ($subarray as $subkunci) {
@@ -110,7 +109,9 @@ abstract class obj
                 $data = array();
             }
 
-            return "$this->tablename seeder object already add<br>";
+            return "$this->tablename seeder table already add<br>";
+        }else{
+            return "";
         }
     }
 }

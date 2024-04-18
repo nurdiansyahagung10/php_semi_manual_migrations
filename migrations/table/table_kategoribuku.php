@@ -1,8 +1,8 @@
 <?php
 require_once 'main/main_obj.php';
 
-// ubah table_name menjadi nama table yang akan di buat
-class koleksipribadi extends obj
+// ubah tablename menjadi nama table yang akan di buat
+class kategoribuku extends obj
 {
     public function __construct()
     {
@@ -10,15 +10,14 @@ class koleksipribadi extends obj
         $tablename = get_class($this);
 
         // menambahkan nama column untuk tableid
-        $tableid = 'koleksiid';
+        $tableid = 'kategoriid';
 
         // menambahkan nama column lain beserta atribut dan type data nya
         $tableinsert = [
             // default type data dan atribut id table tidak usah di rubah opsional
             $tableid => 'INT(11) NOT NULL AUTO_INCREMENT',
             //tambahkan column lain beserta type data dan atributnya 
-            'userid' => 'INT(11) NOT NULL',
-            'bukuid' => 'INT(11) NOT NULL',
+            'namakategori' => 'VARCHAR(255) NOT NULL',
             // 'other_column' => 'typedata atribut',
 
         ];
@@ -31,8 +30,8 @@ class koleksipribadi extends obj
 
         // tambahkan foreign key opsional
         $tableforeign = [
-            'userid' => 'user(userid)',
-            'bukuid' => 'buku(bukuid)',
+            // 'column' => 'table_references(colum_references)',
+            // 'column' => 'table_references(colum_references)',
         ];
 
         parent::__construct($tablename, $tableid, $tableinsert, $seederdata, $tableforeign);

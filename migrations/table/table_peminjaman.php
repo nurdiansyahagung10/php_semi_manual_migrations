@@ -1,8 +1,8 @@
 <?php
 require_once 'main/main_obj.php';
 
-// ubah table_name menjadi nama table yang akan di buat
-class koleksipribadi extends obj
+// ubah tablename menjadi nama table yang akan di buat
+class peminjaman extends obj
 {
     public function __construct()
     {
@@ -10,7 +10,7 @@ class koleksipribadi extends obj
         $tablename = get_class($this);
 
         // menambahkan nama column untuk tableid
-        $tableid = 'koleksiid';
+        $tableid = 'peidminjaman';
 
         // menambahkan nama column lain beserta atribut dan type data nya
         $tableinsert = [
@@ -19,6 +19,9 @@ class koleksipribadi extends obj
             //tambahkan column lain beserta type data dan atributnya 
             'userid' => 'INT(11) NOT NULL',
             'bukuid' => 'INT(11) NOT NULL',
+            'tanggalpeminjaman' => 'DATE NOT NULL',
+            'tanggalpengembalian' => 'DATE',
+            'statuspeminjaman' => 'VARCHAR(50) NOT NULL',
             // 'other_column' => 'typedata atribut',
 
         ];
